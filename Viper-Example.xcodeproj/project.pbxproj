@@ -64,16 +64,24 @@
 			children = (
 				525A071A27FB0B3D0003FC2A /* AppDelegate.swift */,
 				525A071C27FB0B3D0003FC2A /* SceneDelegate.swift */,
+				525A073827FB129D0003FC2A /* FirstScene */,
 				525A072527FB0B3F0003FC2A /* LaunchScreen.storyboard */,
+				525A072327FB0B3F0003FC2A /* Assets.xcassets */,
+				525A072827FB0B3F0003FC2A /* Info.plist */,
+			);
+			path = "Viper-Example";
+			sourceTree = "<group>";
+		};
+		525A073827FB129D0003FC2A /* FirstScene */ = {
+			isa = PBXGroup;
+			children = (
 				525A072E27FB0B6A0003FC2A /* View.swift */,
 				525A073027FB0BB90003FC2A /* Interactor.swift */,
 				525A073227FB0BE30003FC2A /* Presenter.swift */,
 				525A073427FB0C050003FC2A /* Entity.swift */,
 				525A073627FB0C1E0003FC2A /* Router.swift */,
-				525A072327FB0B3F0003FC2A /* Assets.xcassets */,
-				525A072827FB0B3F0003FC2A /* Info.plist */,
 			);
-			path = "Viper-Example";
+			path = FirstScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
